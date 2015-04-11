@@ -15,5 +15,6 @@ setup(
     license='http://www.apache.org/licenses/LICENSE-2.0',
     description='This is a work in progress abstraction class to handle '
     'freeswitch\'s eventsocket command lines.',
-    long_description=long_description
+    long_description=long_description,
+    url='https://github.com/fernandoflorez/freeswitch-eventsocket'
 )
