@@ -7,11 +7,22 @@ eventsocket command lines.
 Currently only inbound server is implemented.
 
 
+Installation
+============
+
+..code-block:: bash
+
+    pip install freeswitch-eventsocket
+
+
+
 Implementation under Tornado's IOLoop
 -------------------------------------
 
 Here is a simple server implementation under `Tornado
-<http://www.tornadoweb.org/>`_::
+<http://www.tornadoweb.org/>`_
+
+.. code-block:: python
 
     import eventsocket
 
@@ -57,7 +68,9 @@ Implementation under Twisted's Reactor
 --------------------------------------
 
 Here is a simple server implementation under `Twisted
-<https://twistedmatrix.com/>`_::
+<https://twistedmatrix.com/>`_
+
+.. code-block:: python
 
     import eventsocket
 
